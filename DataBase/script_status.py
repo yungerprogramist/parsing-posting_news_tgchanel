@@ -21,7 +21,7 @@ class ScriptStatus():
     def change_status_script(self, status: bool):
         """Изменение статуса скрипта"""
         try:
-            with open('Database/status_script.txt') as file:
+            with open('Database/status_script.txt', 'w') as file:
     
                 if status == True:
                     file.write('True')

@@ -1,5 +1,5 @@
 project.db
 .env
-script\session\account.session
-script\session\account.session-journal
+script/session/account.session
+script/session/account.session-journal
 parsing-auto-posting-59567be80d81.json
